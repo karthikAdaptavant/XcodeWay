@@ -42,7 +42,7 @@ protocol Navigator {
 - **Install scripts**: To fully use `XcodeWay`, you need to allow scripting, run this
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/onmyway133/XcodeWay/master/install.sh | sh
+ curl -fsSL https://raw.githubusercontent.com/karthikAdaptavant/XcodeWay/master/install.sh | sh
 ```
 
 #### Troubleshooting
