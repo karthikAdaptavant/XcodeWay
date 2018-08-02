@@ -78,11 +78,11 @@ open myPath as POSIX file
 end tell
 end myOpenFolder
 
-on myOpeniTerm(myPath)
+on myOpenTerminal(myPath)
 tell application "Finder"
-do shell script "open -a iTerm " & quoted form of myPath
+do shell script "open -a Terminal " & quoted form of myPath
 end tell
-end myOpeniTerm
+end myOpenTerminal
 
 -- Open
 
@@ -116,10 +116,10 @@ set myPath to myProjectPath()
 myOpenFolder(myPath)
 end myOpenProjectFolder
 
-on myOpeniTermForCurrentProject()
+on myOpenTerminalForCurrentProject()
 set myPath to myProjectPath()
-myOpeniTerm(myPath)
-end myOpeniTermForCurrentProject
+myOpenTerminal(myPath)
+end myOpenTerminalForCurrentProject
 
 on myOpenDerivedDataFolder()
 set myRelativePath to myProjectPath() & "/DerivedData/"
@@ -145,7 +145,7 @@ end myOpenGitHub
 
 on myGitHubUrlOnMaster()
 set gitHubPath to myGitHubURL()
-set myUrl to gitHubPath & "/blob/master"
+set myUrl to gitHubPath
 end myGitHubUrlOnMaster
 
 on myOpenFileInGitHub()
