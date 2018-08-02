@@ -33,7 +33,7 @@ protocol Navigator {
 
 ## How to install
 
-- Download the latest binary from https://github.com/karthikAdaptavant/XcodeWay
+- Download the latest binary from https://github.com/karthikAdaptavant/XcodeWay/releases
 - **Install scripts**: To fully use `XcodeWay`, you need to allow scripting, run this
 
 ```sh
