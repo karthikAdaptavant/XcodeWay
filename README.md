@@ -13,16 +13,12 @@ XcodeWay
 ## Features
 
 - [x] Go To Project Folder: Open the selected Xcode project folder in Finder
-- [x] Go To iTerm: Open the selected Xcode project folder in iTerm
+- [x] Open Terminal: Open the selected Xcode project folder in Termainal
 - [x] Go To DerivedData Folder: Check and open relative DerivedData if any, otherwise open global DerivedData
 - [x] Open GitHub: Check and open `git remote` in your default browser
 - [x] Open Current File in Github: Open the current file in GitHub
 - [x] Go To Provisioning Profiles Folder: Open in Finder
-- [x] Go To Themes Folder: Open in Finder
-- [x] Go To Archives Folder: Open in Finder
-- [x] Go To DeviceSupport Folder: Open in Finder
 - [x] Go To CodeSnippets Folder: Open in Finder
-- [x] Go To Document Folder: Go to current app Document folder for current simulator
 
 ## Extensible
 
@@ -37,8 +33,7 @@ protocol Navigator {
 
 ## How to install
 
-- Download the latest binary from https://github.com/onmyway133/XcodeWay/releases
-- How to install https://medium.com/@onmyway133/install-xcode-8-source-editor-extension-10c9849e33b0
+- Download the latest binary from https://github.com/karthikAdaptavant/XcodeWay
 - **Install scripts**: To fully use `XcodeWay`, you need to allow scripting, run this
 
 ```sh
