@@ -3,6 +3,7 @@
 set -euo pipefail
 
 DOWNLOAD_URL=https://github.com/karthikAdaptavant/XcodeWay/blob/master/XcodeWayExtensions/Script/XcodeWayScript.scpt
+
 SCRIPT_DIR="${HOME}/Library/Application Scripts/com.fantageek.XcodeWayApp.XcodeWayExtensions"
 
 
