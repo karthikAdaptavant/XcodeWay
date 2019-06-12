@@ -38,6 +38,9 @@ protocol Navigator {
 
 ```sh
  curl -fsSL https://raw.githubusercontent.com/karthikAdaptavant/XcodeWay/master/install.sh | sh
+ 
+ Check the script in build phase
+ cp "${SRCROOT}/XcodeWayExtensions/Script/XcodeWayScript.scpt" "/Users/karthik/Library/Application Scripts/com.fantageek.XcodeWayApp.XcodeWayExtensions"
 ```
 
 #### Troubleshooting
