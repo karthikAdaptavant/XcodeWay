@@ -43,6 +43,12 @@ protocol Navigator {
  cp "${SRCROOT}/XcodeWayExtensions/Script/XcodeWayScript.scpt" "/Users/karthik/Library/Application Scripts/com.fantageek.XcodeWayApp.XcodeWayExtensions"
 ```
 
+1. Download Xcode Proj from release 
+2. Then run with mac simulator 
+3. Run the script (curl -fsSL https://raw.githubusercontent.com/karthikAdaptavant/XcodeWay/master/install.sh | sh)
+4. Check the Scrip in build phase (cp "${SRCROOT}/XcodeWayExtensions/Script/XcodeWayScript.scpt" "/Users/karthik/Library/Application Scripts/com.fantageek.XcodeWayApp.XcodeWayExtensions")
+5. Go to prefrence -> key binding -> Search for Xcodeway
+
 #### Troubleshooting
 
 - Stop `com.apple.dt.Xcode.AttachToXPCService`
